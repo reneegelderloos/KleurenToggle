@@ -1,0 +1,75 @@
+body{
+    background-color: pink;
+}
+
+.navigatie{
+    width: 60px;
+    height: 60px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    z-index:1000;
+}
+
+.nav-toggle-btn{
+    width: 60px;
+    height: 100%;
+    background-color:rgb(98, 255, 190);
+    background-image: url("afbeelding/menu.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nav-toggle-btn:hover{
+    opacity: 0.7;
+}
+
+.kleurenmenu ul{
+    padding-top: 15px;
+    width: 200px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.kleurenmenu ul li{
+    line-height: 50px;
+    list-style: none;
+    border-width: 2px;
+}
+
+.kleurenmenu ul li a{
+    display: block;
+    height: 50px;
+    padding: 0 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    background-color: pink;
+}
+
+.groen{
+    background-color: green;
+}
+
+.geel{
+    background-color: yellow;
+}
+
+.oranje{
+    background-color: orange;
+}
+
+.paars{
+    background-color: purple;
+}
+
+.kleurenmenu ul li a:hover{
+    opacity: 0.5;
+}
+
